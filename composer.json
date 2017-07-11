@@ -2,12 +2,12 @@
     "name": "owncloud/core",
     "description": "A safe home for all your data",
     "license": "AGPL-1.0",
-    "config" : {
+    "config": {
         "vendor-dir": "lib/composer",
         "optimize-autoloader": true,
         "classmap-authoritative": false
     },
-    "autoload" : {
+    "autoload": {
         "psr-4": {
             "OC\\": "lib/private",
             "OC\\Core\\": "core/",
@@ -29,6 +29,7 @@
     },
     "require": {
         "php": ">=5.4.1",
+        "ext-gd": "*",
         "doctrine/dbal": "^2.5",
         "mcnetic/zipstreamer": "^1.0",
         "phpseclib/phpseclib": "2.0.3",
