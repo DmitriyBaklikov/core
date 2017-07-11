@@ -1,0 +1,3 @@
+[submodule "owncloud-for-heroku"]
+	path = owncloud-for-heroku
+	url = git@github.com:DmitriyBaklikov/owncloud-for-heroku.git
